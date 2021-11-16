@@ -1,0 +1,52 @@
+{
+  "name": "@anonrig/eslint-config",
+  "version": "0.1.0",
+  "description": "Personal eslint configurations for Node.js",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./react": "./react.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anonrig/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anonrig/eslint-config/issues"
+  },
+  "homepage": "https://github.com/anonrig/eslint-config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "anonrig",
+    "yagiz nizipli"
+  ],
+  "author": "Yagiz Nizipli <yagiz@nizipli.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "^12.0.4",
+    "eslint-plugin-ava": "^13.1.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  }
+}
