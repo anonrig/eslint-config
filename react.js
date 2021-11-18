@@ -14,8 +14,8 @@ module.exports = {
     'plugin:react/jsx-runtime',
   ],
   parserOptions: {
-    ecmaFeatures: {jsx: true},
-    ecmaVersion: "latest",
+    ecmaFeatures: { jsx: true },
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
   root: true,
@@ -23,12 +23,12 @@ module.exports = {
     'import/order': [
       'error',
       {
-        alphabetize: {
+        'alphabetize': {
           caseInsensitive: true,
           order: 'asc',
         },
         'newlines-between': 'always-and-inside-groups',
-        warnOnUnassignedImports: true,
+        'warnOnUnassignedImports': true,
       },
     ],
     'jsx-a11y/anchor-is-valid': [
@@ -41,5 +41,5 @@ module.exports = {
     ],
     'react/react-in-jsx-scope': 'off',
   },
-  settings: {react: { version: 'detect' },},
+  settings: { react: { version: 'detect' } },
 }
