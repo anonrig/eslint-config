@@ -20,7 +20,8 @@
   "homepage": "https://github.com/anonrig/eslint-config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [
     "eslint",
