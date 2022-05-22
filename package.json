@@ -8,7 +8,8 @@
   },
   "exports": {
     ".": "./index.js",
-    "./react": "./react.js"
+    "./react": "./react.js",
+    "./typescript": "./typescript.js"
   },
   "repository": {
     "type": "git",
@@ -32,23 +33,26 @@
   "author": "Yagiz Nizipli <yagiz@nizipli.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.4.1"
+    "eslint": "^8.16.0"
   },
   "peerDependencies": {
     "eslint": ">= 8"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^12.0.7",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-ava": "^13.1.0",
-    "eslint-plugin-import": "^2.25.3",
+    "@next/eslint-plugin-next": "^12.1.6",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-ava": "^13.2.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
   },
   "eslintConfig": {
     "extends": "./index.js"
