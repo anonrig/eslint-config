@@ -1,10 +1,10 @@
 {
   "name": "@anonrig/eslint-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Personal eslint configurations for Node.js",
   "main": "index.js",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   },
   "exports": {
     ".": "./index.js",
