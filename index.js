@@ -64,6 +64,8 @@ module.exports = {
     'sort-keys-fix/sort-keys-fix': 'warn',
   },
   settings: {
-    'import/resolver': { node: { extensions: ['.js', '.mjs', '.cjs', '.d.ts', '.jsx'] } },
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs', '.cjs', '.d.ts', '.jsx', '.ts', '.tsx'] },
+    },
   },
 }
