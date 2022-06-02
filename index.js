@@ -66,6 +66,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.cjs', '.d.ts', '.jsx', '.ts', '.tsx'] },
+      typescript: {},
     },
   },
 }
